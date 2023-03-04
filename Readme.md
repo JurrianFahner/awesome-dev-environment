@@ -78,6 +78,7 @@ git config --global -l
 [installation instructions](https://git-scm.com/downloads) | [documentation](https://git-scm.com/doc) | [sources](https://github.com/git/git) 
 
 ## containers and images
+<img src="./img/docker-logo.png" align="left" height="90em" />
 For containers and the use of images [Docker](https://www.docker.com/) is currently the default. Please be aware that when 
 using [Docker desktop](https://www.docker.com/products/docker-desktop/alternatives/) that for personal usage it is free 
 of charge, but for large corporations Docker has a software license in place. 
@@ -86,6 +87,7 @@ There is a difference between [docker engine](https://docs.docker.com/engine/) (
 
 WSL2 has now also support for systemd, so docker desktop is less important for the windows ecosystem. 
 
+<img src="./img/podman-logo.svg" align="left" height="90em" />
 [Podman](https://podman.io/) serves as an alternative for docker it is deamonless and it doesn't need to run as root, which
 makes it a more secure alternative than docker. 
 
