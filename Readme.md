@@ -93,8 +93,8 @@ WSL2 has now also support for systemd, so docker desktop is less important for t
 [Podman](https://podman.io/) serves as an alternative for docker it is deamonless and it doesn't need to run as root, which
 makes it a more secure alternative than docker. 
 
-My advice would be to install WSL and use docker from WSL, the reason is that docker is more or less a standard tool 
-nowadays (although it is not my favorite from a security perspective).
+My advice would be to install WSL and use docker from WSL (follow [these instructions](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)), the reason is that docker is more or less a standard tool 
+nowadays (although it is not my favorite from a security perspective). 
 
 ## github vs gitlab
 I use Github for publishing my code in public repos and to collaborate on opensource projects. 
