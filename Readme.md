@@ -32,6 +32,12 @@ It is also free for download, you can download it.
 
 [installation instructions](https://apps.microsoft.com/store/detail/XP9KHM4BK9FZ7Q) | [documentation](https://code.visualstudio.com/docs) | [sources](https://github.com/microsoft/vscode)
 
+## java
+<img src="./img/java-logo.png" align="left" height="90em" />
+When you are building software with the programming language Java. There are a lot of options to choose from, see for example the list on java 17: https://foojay.io/almanac/java-17/ 
+
+I would recommend to use Eclipse Temurin.
+
 ## windows terminal
 <img src="./img/terminal.svg" align="left" height="90em" />
 While working as a developer you often would like to have access to the commandline. Microsoft has a great terminal to work with. Windows 11 has windows terminal installed by default. But for windows 10 you need to install it yourself. 
