@@ -115,7 +115,7 @@ which is tracked by git. In this case I would recommend to install posh.
 
 ## my prompt - bash
 <img src="./img/oh-my-bash-logo.png" align="left" height="90em" />
-The default prompt for bash is a little bit basic. If you want more information on your prompt, please use oh-my-bash.
+The default prompt for bash is a little bit basic. If you want more information on your prompt, please use oh-my-bash. Another approach is to use oh-my-posh (like as with powershell), you can make your prompt the same as for powershell.
 
 [installation instructions](https://ohmybash.nntoan.com/) | [documentation](https://ohmybash.nntoan.com/) | [sources](https://github.com/ohmybash/oh-my-bash) 
 
