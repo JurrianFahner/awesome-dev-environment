@@ -91,6 +91,7 @@ using [Docker desktop](https://www.docker.com/products/docker-desktop/alternativ
 of charge, but for large corporations Docker has a software license in place. 
 
 There is a difference between [docker engine](https://docs.docker.com/engine/) (which is free to use by everyone) and [docker desktop](https://docs.docker.com/desktop/). Docker desktop makes it possible to install a kubernetes cluster on your dev machine with one press of a button.  
+
 After a few freezes of the docker desktop ui and initialization issues after a reboot, I decided to get rid of docker desktop and go for docker engine. The reasons for me are the following:
 1. Docker desktop doesn't add a lot of value.
 1. Windows 11 supports now systemd on wsl2, so there is one reason less to have Docker desktop installed.
