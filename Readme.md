@@ -95,8 +95,6 @@ After a few freezes of the docker desktop ui and initialization issues after a r
 1. Docker desktop doesn't add a lot of value.
 1. Windows 11 supports now systemd on wsl2, so there is one reason less to have Docker desktop installed.
 
-WSL2 has now also support for systemd, so docker desktop is less important for the windows ecosystem. 
-
 <img src="./img/podman-logo.svg" align="left" height="90em" />
 
 [Podman](https://podman.io/) serves as an alternative for docker it is deamonless and it doesn't need to run as root, which
