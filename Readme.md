@@ -108,6 +108,8 @@ makes it a more secure alternative than docker.
 I use Github for publishing my code in public repos and to collaborate on opensource projects. 
 For my personal projects I use Gitlab, because I'm able to run the builds on my personal laptop and it is easy to setup. 
 
+
+
 ## my prompt - powershell
 <img src="./img/oh-my-posh-logo.svg" align="left" height="90em" />
 The default prompt for powershell is a little bit basic. You might want to know on which branch you are when you are in a folder
