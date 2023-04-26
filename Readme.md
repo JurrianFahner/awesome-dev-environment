@@ -95,13 +95,13 @@ After a few freezes of the docker desktop ui and initialization issues after a r
 1. Docker desktop doesn't add a lot of value.
 1. Windows 11 supports now systemd on wsl2, so there is one reason less to have Docker desktop installed.
 
+My advice would be to install WSL and use docker from WSL (follow [these instructions](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)), the reason is that docker is more or less a standard tool 
+nowadays (although it is not my favorite from a security perspective). 
+
 <img src="./img/podman-logo.svg" align="left" height="90em" />
 
 [Podman](https://podman.io/) serves as an alternative for docker it is deamonless and it doesn't need to run as root, which
 makes it a more secure alternative than docker. 
-
-My advice would be to install WSL and use docker from WSL (follow [these instructions](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)), the reason is that docker is more or less a standard tool 
-nowadays (although it is not my favorite from a security perspective). 
 
 ## github vs gitlab
 I use Github for publishing my code in public repos and to collaborate on opensource projects. 
