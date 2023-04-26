@@ -105,7 +105,13 @@ After install instruction:
 notepad $profile   # you can also opt for any other text editor, like vim or code for example.
 ```
 Copy paste the code below in the editor, save and close it.
-<script src="https://gist.github.com/JurrianFahner/8c1a297d9caf48682c2492e2ae3a4729.js"></script>
+```powershell
+function docker()
+{
+	$allArgs = $PsBoundParameters.Values + $args
+	& wsl docker $allArgs
+}
+```
 
 After this setup, you should be able to invoke the following from powershell:
 ```powershell
