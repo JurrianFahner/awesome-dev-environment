@@ -96,19 +96,44 @@ of charge, but for large corporations Docker has a software license in place.
 
 There is a difference between [docker engine](https://docs.docker.com/engine/) (which is free to use by everyone) and [docker desktop](https://docs.docker.com/desktop/). Docker desktop makes it possible to install a kubernetes cluster on your dev machine with one press of a button.  
 
-WSL2 has now also support for systemd, so docker desktop is less important for the windows ecosystem. 
+After a few freezes of the docker desktop ui and initialization issues after a reboot, I decided to get rid of docker desktop and go for docker engine. The reasons for me are the following:
+1. Docker desktop doesn't add a lot of value.
+1. Windows 11 supports now systemd on wsl2, so there is one reason less to have Docker desktop installed.
+1. Potential licencing issues: 
+
+My advice would be to install WSL and use docker from WSL (follow [these instructions](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)), the reason is that docker is more or less a standard tool nowadays (although it is not my favorite from a security perspective).
+
+After install instruction: 
+```powershell
+# run the command below to open the powershell startup script
+notepad $profile   # you can also opt for any other text editor, like vim or code for example.
+```
+Copy paste the code below in the editor, save and close it.
+```powershell
+function docker()
+{
+	$allArgs = $PsBoundParameters.Values + $args
+	& wsl docker $allArgs
+}
+```
+
+After this setup, you should be able to invoke the following from powershell:
+```powershell
+docker run -it hello-world
+```
+
+**Note** Mounting volumes in powershell is not likely to work. 
 
 <img src="./img/podman-logo.svg" align="left" height="90em" />
 
 [Podman](https://podman.io/) serves as an alternative for docker it is deamonless and it doesn't need to run as root, which
 makes it a more secure alternative than docker. 
 
-My advice would be to install WSL and use docker from WSL (follow [these instructions](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)), the reason is that docker is more or less a standard tool 
-nowadays (although it is not my favorite from a security perspective). 
-
 ## github vs gitlab
 I use Github for publishing my code in public repos and to collaborate on opensource projects. 
 For my personal projects I use Gitlab, because I'm able to run the builds on my personal laptop and it is easy to setup. 
+
+
 
 ## my prompt - powershell
 <img src="./img/oh-my-posh-logo.svg" align="left" height="90em" />
