@@ -4,7 +4,7 @@
 
 # my development setup
 It is a very opinionated setup with a lot of opinions and unsupported claims.
-But maybe you find here tools that you are not aware of and would like to explorer... 
+But maybe you find here tools that you are not aware of and would like to explore... 
 If you use a tool that needs to be added to my development setup, please create a PR. 😉 
 
 ## jetbrains IDE
@@ -31,7 +31,7 @@ it shows how Jetbrains see their role to support the developer).
 
 ## visual studio code
 <img src="./img/vscode.svg" align="left" height="90em" />
-This tool from Microsoft is the swiss army knife for a developer. It can be used as a text editor, but can also be scaled up to a full fletched IDE. It just depends on your preference. 
+This tool from Microsoft can be the swiss army knife for a developer. It can be used as a text editor, but can also be scaled up to a full fletched IDE. It just depends on your preference. 
 It is also free for download, you can download it. 
 
 [installation instructions](https://apps.microsoft.com/store/detail/XP9KHM4BK9FZ7Q) | [documentation](https://code.visualstudio.com/docs) | [sources](https://github.com/microsoft/vscode)
