@@ -1,3 +1,7 @@
+> **`Info`** <br />
+> This readme is optimized to be rendered on dark mode in Github.
+> So if you want to have the best experience, you can [switch the dark mode on][github-darkmode].
+
 # my development setup
 It is a very opinionated setup with a lot of opinions and unsupported claims.
 But maybe you find here tools that you are not aware of and would like to explorer... 
@@ -135,3 +139,5 @@ The default prompt for bash is a little bit basic. If you want more information 
 [download-pycharm]: https://www.jetbrains.com/pycharm/download/
 [download-webstorm]: https://www.jetbrains.com/webstorm/download/
 [download-clion]: https://www.jetbrains.com/clion/download/
+
+[github-darkmode]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings
